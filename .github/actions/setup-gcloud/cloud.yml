@@ -1,0 +1,2 @@
+- name: Set up Cloud SDK
+  uses: ./github/actions/setup-gcloud
