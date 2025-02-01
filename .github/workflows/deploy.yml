@@ -11,9 +11,9 @@ jobs:
 
     steps:
     - name: Debug Secrets
-      run: echo ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+      run: echo ${{ secrets.GCP_PROJECT_ID }}
       env:
-        GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+        GCP_SERVICE_ACCOUNT_KEY: ${{secrets.GCP_PROJECT_ID }}
     
     - name: Checkout code
       uses: actions/checkout@v3
