@@ -1,4 +1,3 @@
-# filepath: /C:/Users/riktm/Desktop/Dev/workshop-services/Dockerfile
 # Usa una imagen base de Node.js
 FROM node:22.13.1
 
